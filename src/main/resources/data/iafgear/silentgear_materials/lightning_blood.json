@@ -1,0 +1,33 @@
+{
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.lightning_blood"
+  },
+  "name_prefix": {
+    "translate": "material.iafgear.lightning_blood.prefix"
+  },
+  "stats": {
+    "coating": {
+      "enchantability": {
+        "add": 10.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "iafgear:dragondamage_lightning",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonbone"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.dragonbone"
+  },
+  "stats": {
+    "main": {
+      "durability": 1660.0,
+      "armor_durability": 37.0,
+      "enchantability": 22.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 4.0,
+      "magic_damage": 2.0,
+      "attack_speed": -0.4,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.4,
+      "rarity": 80.0,
+      "silentgems:chargeability": 0.6
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:chipping",
+        "level": 3
+      }
+    ]
+  }
+}

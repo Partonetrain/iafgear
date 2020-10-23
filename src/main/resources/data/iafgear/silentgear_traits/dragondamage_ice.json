@@ -1,0 +1,12 @@
+{
+  "type": "iafgear:dragon_damage_trait",
+  "max_level": 1,
+  "cancels_with": [],
+  "name": {
+    "translate": "trait.iafgear.dragondamage_ice"
+  },
+  "description": {
+    "translate": "trait.iafgear.dragondamage_ice.desc"
+  },
+  "damage_type": "ice"
+}

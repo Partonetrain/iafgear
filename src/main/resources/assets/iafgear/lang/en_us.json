@@ -1,0 +1,17 @@
+{
+  "trait.iafgear.dragondamage_fire": "Dragonfire",
+  "trait.iafgear.dragondamage_fire.desc": "Deals more damage to Ice Dragons",
+  "trait.iafgear.dragondamage_ice": "Dragonfreeze",
+  "trait.iafgear.dragondamage_ice.desc": "Deals more damage to Fire Dragons",
+  "trait.iafgear.dragondamage_lightning": "Dragonlightning",
+  "trait.iafgear.dragondamage_lightning.desc": "Deals more damage to both Ice and Fire Dragons",
+
+  "material.iafgear.dragonbone": "Dragon Bone",
+  "material.iafgear.witherbone": "Witherbone",
+  "material.iafgear.fire_blood": "Fire Blood",
+  "material.iafgear.fire_blood.prefix": "Flamed",
+  "material.iafgear.ice_blood": "Ice Blood",
+  "material.iafgear.ice_blood.prefix": "Iced",
+  "material.iafgear.lightning_blood": "Lightning Blood",
+  "material.iafgear.lightning_blood.prefix": "Thundered"
+}
