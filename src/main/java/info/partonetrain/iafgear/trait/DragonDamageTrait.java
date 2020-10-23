@@ -42,9 +42,7 @@ public class DragonDamageTrait extends SimpleTrait {
 
     @Override
     public float onAttackEntity(TraitActionContext context, LivingEntity target, float baseValue) {
-        //IAFGear.LOGGER.info("Entity String:" + target.getEntity().getEntityString());
         //there's probably a better way to do this lol
-        String targetString = target.getEntity().getEntityString();
         switch (damageType) {
             case "fire":
                 if (target instanceof EntityIceDragon) {
@@ -72,7 +70,7 @@ public class DragonDamageTrait extends SimpleTrait {
         return baseValue;
     }
 
-    //maybe the bonus effects should be configurable
+    //maybe the bonus effects should be configurable (or excluded entirely)
     public void burn(LivingEntity target) {
         target.setFire(5);
     }
