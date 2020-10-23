@@ -61,7 +61,6 @@ public class DragonDamageTrait extends SimpleTrait {
             case "lightning":
                 if (target instanceof EntityFireDragon || target instanceof EntityIceDragon) {
                     target.attackEntityFrom(DamageSource.LIGHTNING_BOLT, BONUS_DAMAGE_LIGHTNING);
-                    IAFGear.LOGGER.info("");
                 }
                 lightning(target, context.getPlayer());
                 break;
