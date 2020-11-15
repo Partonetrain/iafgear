@@ -1,0 +1,17 @@
+{
+  "main/all": [
+    {
+      "texture": "silentgear:main_generic_hc",
+      "color": "#fc3d03"
+    },
+    {
+      "texture": "silentgear:_highlight"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:gem",
+      "color": "#fc3d03"
+    }
+  ]
+}
