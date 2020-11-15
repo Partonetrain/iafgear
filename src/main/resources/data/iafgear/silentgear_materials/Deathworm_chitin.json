@@ -24,7 +24,7 @@
   "stats": {
     "main": {
       "durability": 0.0,
-      "armor_durability": 35.0,
+      "armor_durability": 10.0,
       "enchantability": 12.0,
       "armor": 17.0,
       "armor_toughness": 6.0,
