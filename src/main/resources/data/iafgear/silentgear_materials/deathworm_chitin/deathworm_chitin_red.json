@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:deathworm_chitin",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:deathworm_chitin_red"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.deathwormchitin.red"
+  }
+}
