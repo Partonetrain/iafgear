@@ -8,6 +8,11 @@
   "crafting_items": {
     "main": {
       "item": "iceandfire:dragonbone"
+    },
+    "subs": {
+      "rod" : {
+        "item": "iceandfire:dragonbone"
+      }
     }
   },
   "name": {
@@ -26,6 +31,15 @@
       "ranged_speed": -0.4,
       "rarity": 80.0,
       "silentgems:chargeability": 0.6
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.3
+      },
+      "melee_damage": {
+        "mul2": 0.3
+      },
+      "rarity": 25.0
     }
   },
   "traits": {
@@ -33,6 +47,12 @@
       {
         "name": "silentgear:chipping",
         "level": 3
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
       }
     ]
   }
