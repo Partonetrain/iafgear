@@ -1,0 +1,11 @@
+{
+  "parent": "iafgear:dragon_scale",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonscales_amythest"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.dragon_scale.amethyst"
+  }
+}

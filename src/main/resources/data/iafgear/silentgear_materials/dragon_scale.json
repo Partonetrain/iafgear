@@ -1,0 +1,55 @@
+{
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "iafgear:dragon_scale"
+      },
+      "exclusions": [
+        "iceandfire:dragonscales_red",
+        "iceandfire:dragonscales_green",
+        "iceandfire:dragonscales_bronze",
+        "iceandfire:dragonscales_gray",
+        "iceandfire:dragonscales_blue",
+        "iceandfire:dragonscales_white",
+        "iceandfire:dragonscales_sapphire",
+        "iceandfire:dragonscales_silver",
+        "iceandfire:dragonscales_electric",
+        "iceandfire:dragonscales_black",
+        "iceandfire:dragonscales_amythest",
+        "iceandfire:dragonscales_copper"
+      ]
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.dragon_scale"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 36.0,
+      "enchantability": 15.0,
+      "armor": 24.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 12.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "rarity": 80.0,
+      "silentgems:chargeability": 1.5
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "iafgear:dragonprotection",
+        "level": 1
+      }
+    ]
+  }
+}

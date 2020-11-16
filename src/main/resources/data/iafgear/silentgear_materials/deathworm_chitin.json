@@ -19,7 +19,7 @@
     }
   },
   "name": {
-    "translate": "material.iafgear.deathwormchitin"
+    "translate": "material.iafgear.deathworm_chitin"
   },
   "stats": {
     "main": {
@@ -31,7 +31,7 @@
       "magic_armor": 12.0,
       "ranged_damage": 3.0,
       "ranged_speed": 0.1,
-      "rarity": 60.0,
+      "rarity": 35.0,
       "silentgems:chargeability": 1.5
     }
   },

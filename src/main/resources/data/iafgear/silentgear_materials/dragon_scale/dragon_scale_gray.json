@@ -1,0 +1,11 @@
+{
+  "parent": "iafgear:dragon_scale",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonscales_gray"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.dragon_scale.gray"
+  }
+}

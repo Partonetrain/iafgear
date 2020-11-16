@@ -1,0 +1,11 @@
+{
+  "type": "iafgear:phantasmal_trait",
+  "max_level": 1,
+  "cancels_with": [],
+  "name": {
+    "translate": "trait.iafgear.phantasmal"
+  },
+  "description": {
+    "translate": "trait.iafgear.phantasmal.desc"
+  }
+}
