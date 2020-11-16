@@ -13,6 +13,9 @@
   "material.iafgear.ice_blood": "Ice Blood",
   "material.iafgear.ice_blood.prefix": "Iced",
   "material.iafgear.lightning_blood": "Lightning Blood",
-  "material.iafgear.lightning_blood.prefix": "Thundered"
-  "material.silentgear.deathwormchitin": "Deathworm Chitin"
+  "material.iafgear.lightning_blood.prefix": "Thundered",
+  "material.iafgear.deathwormchitin": "Deathworm Chitin",
+  "material.iafgear.deathwormchitin.red": "Deathworm Chitin",
+  "material.iafgear.deathwormchitin.white": "Deathworm Chitin",
+  "material.iafgear.deathwormchitin.yellow": "Deathworm Chitin"
 }
