@@ -126,13 +126,13 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.3-34.1.25'
+    minecraft 'net.minecraftforge:forge:1.16.3-34.1.42'
 
-    compileOnly fg.deobf("mezz.jei:jei-1.16.3:7.+:api")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.16.3:7.+")
+    compileOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+")
     //runtimeOnly fg.deobf("curse.maven:jei:3078092")
 
-    compile("net.silentchaos512:silent-gear-1.16.3:2.3.0"){
+    compile("net.silentchaos512:silent-gear-1.16.3:2.3.7"){
         exclude module: "silents-mechanisms-1.16.3"
     }
     compile("net.silentchaos512:silent-lib-1.16.3:4.+")
@@ -140,8 +140,8 @@ dependencies {
 
     //compile 'curse.maven:citadel:1.4.1:deobf'
     //compile 'citadel:citadel:1.4.1:deobf'
-    implementation fg.deobf("curse.maven:citadel:3081064")
-    implementation fg.deobf("curse.maven:iceandfire:3077981")
+    implementation fg.deobf("curse.maven:citadel:3116144")
+    implementation fg.deobf("curse.maven:iceandfire:3117110")
 
     implementation 'org.jetbrains:annotations:15.0'
 }

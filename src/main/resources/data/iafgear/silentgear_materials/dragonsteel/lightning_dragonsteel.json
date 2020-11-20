@@ -1,0 +1,38 @@
+{
+  "parent": "iafgear:dragonsteel",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.dragonsteel.lightning"
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "iafgear:dragonprotection",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      }, {
+        "name": "iafgear:dragondamage_lightning",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -48,7 +48,17 @@
     "main": [
       {
         "name": "iafgear:dragonprotection",
-        "level": 1
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
       }
     ]
   }

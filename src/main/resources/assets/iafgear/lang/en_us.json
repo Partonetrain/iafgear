@@ -8,7 +8,7 @@
   "trait.iafgear.dragonprotection": "Dragon Defense",
   "trait.iafgear.dragonprotection.desc": "(Non-functional) Increased protection from dragon breath attacks",
   "trait.iafgear.phantasmal": "Phantasmal",
-  "trait.iafgear.phantasmal.desc": "(Non-functional) Increased protection from dragon breath attacks",
+  "trait.iafgear.phantasmal.desc": "Fires a spinning sword that travels through blocks",
 
   "material.iafgear.dragonbone": "Dragon Bone",
   "material.iafgear.witherbone": "Witherbone",
@@ -36,5 +36,9 @@
   "material.iafgear.dragon_scale.amethyst": "Amethyst Dragon Scales",
   "material.iafgear.dragon_scale.black": "Black Dragon Scales",
   "material.iafgear.ghost_ingot": "Phantasmal Ingot",
-  "material.iafgear.ghost_ingot.prefix": "Phantasmal"
+  "material.iafgear.ghost_ingot.prefix": "Phantasmal",
+  "material.iafgear.dragonsteel": "Dragonsteel",
+  "material.iafgear.dragonsteel.fire": "Fire Dragonsteel Ingot",
+  "material.iafgear.dragonsteel.ice": "Ice Dragonsteel Ingot",
+  "material.iafgear.dragonsteel.lightning": "Lightning Dragonsteel Ingot"
 }

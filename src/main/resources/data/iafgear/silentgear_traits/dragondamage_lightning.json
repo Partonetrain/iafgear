@@ -1,12 +1,15 @@
 {
   "type": "iafgear:dragon_damage_trait",
   "max_level": 1,
-  "cancels_with": [],
   "name": {
     "translate": "trait.iafgear.dragondamage_lightning"
   },
   "description": {
     "translate": "trait.iafgear.dragondamage_lightning.desc"
   },
+  "cancels_with": [
+    "iafgear:dragondamage_ice",
+    "iafgear:dragondamage_fire"
+  ],
   "damage_type": "lightning"
 }

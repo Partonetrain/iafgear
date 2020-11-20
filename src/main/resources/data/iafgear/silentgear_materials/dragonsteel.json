@@ -1,0 +1,39 @@
+{
+  "availability": {
+    "tier": 5,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "name": {
+    "translate": "material.iafgear.dragonsteel"
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "iafgear:dragonsteel"
+      },
+      "exclusions": [
+        "iceandfire:dragonsteel_fire_ingot",
+        "iceandfire:dragonsteel_ice_ingot",
+        "iceandfire:dragonsteel_lightning_ingot"
+      ]
+    }
+  },
+  "stats": {
+    "main": {
+      "durability": 8000.0,
+      "armor_durability": 15.0,
+      "enchantability": 5.0,
+      "armor": 34,
+      "armor_toughness": 24.0,
+      "magic_armor": 15.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "melee_damage": 8.0,
+      "rarity": 100.0,
+      "silentgems:chargeability": 1.0
+    }
+  }
+}
