@@ -40,5 +40,13 @@
   "material.iafgear.dragonsteel": "Dragonsteel",
   "material.iafgear.dragonsteel.fire": "Fire Dragonsteel Ingot",
   "material.iafgear.dragonsteel.ice": "Ice Dragonsteel Ingot",
-  "material.iafgear.dragonsteel.lightning": "Lightning Dragonsteel Ingot"
+  "material.iafgear.dragonsteel.lightning": "Lightning Dragonsteel Ingot",
+
+  "item.iafgear.shiny_scale_blue": "Shiny Blue Serpent Scales",
+  "item.iafgear.shiny_scale_bronze": "Shiny Bronze Serpent Scales",
+  "item.iafgear.shiny_scale_deep_blue": "Shiny Deep Blue Serpent Scales",
+  "item.iafgear.shiny_scale_green": "Shiny Green Serpent Scales",
+  "item.iafgear.shiny_scale_purple": "Shiny Purple Serpent Scales",
+  "item.iafgear.shiny_scale_red": "Shiny Red Serpent Scales",
+  "item.iafgear.shiny_scale_teal": "Shiny Teal Serpent Scales"
 }
