@@ -1,0 +1,11 @@
+{
+  "parent": "iafgear:serpent_scale",
+  "crafting_items": {
+    "main": {
+      "item": "iafgear:shiny_scale_purple"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.serpent_scale.purple"
+  }
+}

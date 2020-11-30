@@ -2,14 +2,16 @@
   "main/all": [
     {
       "texture": "silentgear:main_generic_hc"
-    },
-    {
-      "texture": "silentgear:_highlight"
     }
   ],
   "main/fragment": [
     {
       "texture": "silentgear:gem"
+    }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:dragon_scale"
     }
   ]
 }

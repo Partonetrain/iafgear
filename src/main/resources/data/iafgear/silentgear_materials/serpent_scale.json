@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "iafgear:serpent_scale"
+      },
+      "exclusions": [
+        "iafgear:shiny_scale_blue",
+        "iafgear:shiny_scale_bronze",
+        "iafgear:shiny_scale_deep_blue",
+        "iafgear:shiny_scale_green",
+        "iafgear:shiny_scale_purple",
+        "iafgear:shiny_scale_red",
+        "iafgear:shiny_scale_teal"
+      ]
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.serpent_scale"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 30.0,
+      "enchantability": 15.0,
+      "armor": 22.0,
+      "armor_toughness": 10.0,
+      "magic_armor": 12.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "rarity": 70.0,
+      "silentgems:chargeability": 1.5
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -14,16 +14,15 @@ public class ModItems {
     public static Item ShinyScaleTeal;
 
 
-
-    public static void register(IForgeRegistry<Item> registry){
+    public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
-           ShinyScaleBlue = new ShinyScaleItem("blue"),
-           ShinyScaleBronze = new ShinyScaleItem("bronze"),
-           ShinyScaleDeepBlue = new ShinyScaleItem("deep_blue"),
-           ShinyScaleGreen = new ShinyScaleItem("green"),
-           ShinyScalePurple = new ShinyScaleItem("purple"),
-           ShinyScaleRed = new ShinyScaleItem( "red"),
-           ShinyScaleTeal = new ShinyScaleItem("teal")
+                ShinyScaleBlue = new ShinyScaleItem("blue"),
+                ShinyScaleBronze = new ShinyScaleItem("bronze"),
+                ShinyScaleDeepBlue = new ShinyScaleItem("deep_blue"),
+                ShinyScaleGreen = new ShinyScaleItem("green"),
+                ShinyScalePurple = new ShinyScaleItem("purple"),
+                ShinyScaleRed = new ShinyScaleItem("red"),
+                ShinyScaleTeal = new ShinyScaleItem("teal")
         );
     }
 

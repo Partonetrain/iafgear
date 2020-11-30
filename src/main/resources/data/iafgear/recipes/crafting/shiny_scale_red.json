@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iceandfire:shiny_scales"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_red"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_red"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_red"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_red"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_red"
+    }
+  ],
+  "result": {
+    "item": "iafgear:shiny_scale_red",
+    "count": 5
+  }
+}

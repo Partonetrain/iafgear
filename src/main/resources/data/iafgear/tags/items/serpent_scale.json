@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "iafgear:shiny_scale_blue",
+    "iafgear:shiny_scale_bronze",
+    "iafgear:shiny_scale_deep_blue",
+    "iafgear:shiny_scale_green",
+    "iafgear:shiny_scale_purple",
+    "iafgear:shiny_scale_red",
+    "iafgear:shiny_scale_teal"
+  ]
+}

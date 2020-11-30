@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iceandfire:shiny_scales"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_bronze"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_bronze"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_bronze"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_bronze"
+    },
+    {
+      "item": "iceandfire:sea_serpent_scales_bronze"
+    }
+  ],
+  "result": {
+    "item": "iafgear:shiny_scale_bronze",
+    "count": 5
+  }
+}

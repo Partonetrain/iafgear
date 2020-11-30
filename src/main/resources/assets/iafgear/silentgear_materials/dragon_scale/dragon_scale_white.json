@@ -13,5 +13,14 @@
       "texture": "silentgear:gem",
       "color": "#FCFCFC"
     }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:dragon_scale",
+      "color": "#FCFCFC"
+    },
+    {
+      "texture": "silentgear:_highlight"
+    }
   ]
 }

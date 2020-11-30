@@ -1,0 +1,17 @@
+{
+  "main/all": [
+    {
+      "texture": "silentgear:main_generic_hc"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:gem"
+    }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:serpent_scale"
+    }
+  ]
+}
