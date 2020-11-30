@@ -3,9 +3,6 @@
     {
       "texture": "silentgear:main_generic_hc",
       "color": "#A3313E"
-    },
-    {
-      "texture": "silentgear:_highlight"
     }
   ],
   "main/fragment": [
@@ -18,9 +15,6 @@
     {
       "texture": "iafgear:serpent_scale",
       "color": "#A3313E"
-    },
-    {
-      "texture": "silentgear:_highlight"
     }
   ]
 }
