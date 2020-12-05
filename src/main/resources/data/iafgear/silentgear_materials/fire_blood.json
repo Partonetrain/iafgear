@@ -17,8 +17,11 @@
   },
   "stats": {
     "coating": {
-      "enchantability": {
-        "add": 5.0
+      "durability": {
+        "add": 340.0
+      },
+      "rarity": {
+        "add": 10.0
       }
     }
   },

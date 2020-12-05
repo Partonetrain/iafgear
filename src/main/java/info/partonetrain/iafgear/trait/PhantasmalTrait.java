@@ -20,7 +20,7 @@ public class PhantasmalTrait extends SimpleTrait {
     @Override
     public void onItemSwing(ItemStack stack, LivingEntity entity, int traitLevel) {
         //just use the event that's already there
-        ServerEvents.onLeftClick((PlayerEntity)entity, IafItemRegistry.GHOST_SWORD.getDefaultInstance());
+        ServerEvents.onLeftClick((PlayerEntity) entity, IafItemRegistry.GHOST_SWORD.getDefaultInstance());
     }
 
 

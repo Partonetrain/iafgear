@@ -9,6 +9,10 @@
   "trait.iafgear.dragonprotection.desc": "(Non-functional) Increased protection from dragon breath attacks",
   "trait.iafgear.phantasmal": "Phantasmal",
   "trait.iafgear.phantasmal.desc": "Fires a spinning sword that travels through blocks",
+  "trait.iafgear.stinger": "Stinger",
+  "trait.iafgear.stinger.desc": "Poisons the target for 10 seconds on hit",
+  "trait.iafgear.myrmex_damage": "Myrmexian",
+  "trait.iafgear.myrmex_damage.desc": "+4 damage against non-arthropods and deathworms",
 
   "material.iafgear.dragonbone": "Dragon Bone",
   "material.iafgear.witherbone": "Witherbone",
@@ -49,6 +53,12 @@
   "material.iafgear.serpent_scale.purple": "Purple Serpent Scales",
   "material.iafgear.serpent_scale.red": "Red Serpent Scales",
   "material.iafgear.serpent_scale.teal": "Teal Serpent Scales",
+  "material.iafgear.stinger": "Myrmex Stinger",
+  "material.iafgear.stinger.prefix": "Stinging",
+  "material.iafgear.stymphalian_feather": "Stymphalian Feather",
+  "material.iafgear.myrmex_chitin": "Myrmex Chitin",
+  "material.iafgear.myrmex_chitin.jungle": "Jungle Myrmex Chitin",
+  "material.iafgear.myrmex_chitin.desert": "Desert Myrmex Chitin",
 
   "item.iafgear.shiny_scale_blue": "Shiny Blue Serpent Scales",
   "item.iafgear.shiny_scale_bronze": "Shiny Bronze Serpent Scales",

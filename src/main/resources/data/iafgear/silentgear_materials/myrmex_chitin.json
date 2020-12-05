@@ -1,0 +1,48 @@
+{
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "name": {
+    "translate": "material.iafgear.myrmex_chitin"
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "iafgear:myrmex_chitin"
+      },
+      "exclusions": [
+        "iceandfire:myrmex_desert_chitin",
+        "iceandfire:myrmex_jungle_chitin"
+      ]
+    }
+  },
+  "stats": {
+    "main": {
+      "durability": 600.0,
+      "armor_durability": 20.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 6.0,
+      "enchantability": 8.0,
+      "armor": 20.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 7.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "melee_damage": 1.0,
+      "rarity": 30.0,
+      "silentgems:chargeability": 0.7
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "iafgear:myrmex_damage",
+        "level": 1
+      }
+    ]
+  }
+}

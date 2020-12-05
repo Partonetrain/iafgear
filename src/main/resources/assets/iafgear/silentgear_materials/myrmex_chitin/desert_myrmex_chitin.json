@@ -2,7 +2,7 @@
   "main/all": [
     {
       "texture": "silentgear:main_generic_hc",
-      "color": "#f0ecdd"
+      "color": "#71370C"
     },
     {
       "texture": "silentgear:_highlight"
@@ -11,13 +11,13 @@
   "main/fragment": [
     {
       "texture": "silentgear:gem",
-      "color": "#f0ecdd"
+      "color": "#71370C"
     }
   ],
   "main/armor": [
     {
-      "texture": "iafgear:deathworm_chitin",
-      "color": "#f0ecdd"
+      "texture": "iafgear:myrmex_chitin",
+      "color": "#71370C"
     }
   ]
 }

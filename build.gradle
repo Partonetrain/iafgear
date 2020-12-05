@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.3-0.0.3'
+version = '1.16.3-0.0.4'
 group = 'info.partonetrain.iafgear' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'iafgear'
 
@@ -49,6 +49,11 @@ repositories {
     maven {
         url "https://modmaven.k-4u.nl/mezz/jei/jei-1.16.3/"
     }
+    // Curios
+    maven {
+        name "curios"
+        url "https://maven.theillusivec4.top/"
+    }
 }
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
@@ -58,7 +63,7 @@ minecraft {
     // Use non-default mappings at your own risk. they may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     //mappings channel: 'snapshot', version: '20200514-1.16'
-    mappings channel: 'snapshot', version: "20200916-1.16.2"
+    mappings channel: 'snapshot', version: "20201028-1.16.3"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -132,7 +137,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+")
     //runtimeOnly fg.deobf("curse.maven:jei:3078092")
 
-    compile("net.silentchaos512:silent-gear-1.16.3:2.3.7"){
+    compile("net.silentchaos512:silent-gear-1.16.3:2.4.1"){
         exclude module: "silents-mechanisms-1.16.3"
     }
     compile("net.silentchaos512:silent-lib-1.16.3:4.+")
@@ -144,6 +149,11 @@ dependencies {
     implementation fg.deobf("curse.maven:iceandfire:3117110")
 
     implementation 'org.jetbrains:annotations:15.0'
+
+    dependencies {
+        runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.+}")
+        compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.16.3-4.+:api")
+    }
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

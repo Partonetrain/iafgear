@@ -13,5 +13,11 @@
       "texture": "silentgear:gem",
       "color": "#dbd5bf"
     }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:deathworm_chitin",
+      "color": "#dbd5bf"
+    }
   ]
 }

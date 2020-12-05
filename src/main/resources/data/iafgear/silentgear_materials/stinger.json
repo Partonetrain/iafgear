@@ -1,0 +1,33 @@
+{
+  "availability": {
+    "tier": 2,
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.stinger"
+  },
+  "name_prefix": {
+    "translate": "material.iafgear.stinger.prefix"
+  },
+  "stats": {
+    "tip": {
+      "rarity": {
+        "add": 5.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "iafgear:stinger",
+        "level": 1
+      }
+    ]
+  }
+}

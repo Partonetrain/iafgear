@@ -1,0 +1,11 @@
+{
+  "parent": "iafgear:myrmex_chitin",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:myrmex_desert_chitin"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.myrmex_chitin.desert"
+  }
+}

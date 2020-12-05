@@ -20,6 +20,9 @@ import net.silentchaos512.gear.gear.trait.SimpleTrait;
 public class DragonDamageTrait extends SimpleTrait {
 
     private String damageType;
+    //TODO: make this serialize from the json
+    private int effectScale = 15;
+    private static final int EFFECT_MULTIPLIER = 20;
     private static final float BONUS_DAMAGE = 13.5F;
     private static final float BONUS_DAMAGE_LIGHTNING = 9.5F;
 
@@ -65,21 +68,19 @@ public class DragonDamageTrait extends SimpleTrait {
             default:
                 break;
         }
-
+        doKnockback(target, context.getPlayer());
 
         return baseValue;
     }
 
-    //maybe the bonus effects should be configurable (or excluded entirely)
     public void burn(LivingEntity target) {
-        target.setFire(5);
+        target.setFire(effectScale);
     }
 
     public void freeze(LivingEntity target) {
         FrozenEntityProperties frozenProps = EntityPropertiesHandler.INSTANCE.getProperties(target, FrozenEntityProperties.class);
-        frozenProps.setFrozenFor(200);
-        target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 2));
-        target.addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, 100, 2));
+        frozenProps.setFrozenFor(effectScale * EFFECT_MULTIPLIER);
+        target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, effectScale * EFFECT_MULTIPLIER, 2));
     }
 
     public void lightning(LivingEntity target, LivingEntity attacker) {
@@ -94,6 +95,10 @@ public class DragonDamageTrait extends SimpleTrait {
                 target.world.addEntity(lightningboltentity);
             }
         }
+    }
+
+    public void doKnockback(LivingEntity target, LivingEntity attacker){
+        target.applyKnockback( 1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
     }
 
     public DragonDamageTrait(ResourceLocation id) {

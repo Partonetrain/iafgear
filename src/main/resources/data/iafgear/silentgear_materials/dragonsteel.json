@@ -24,14 +24,16 @@
   "stats": {
     "main": {
       "durability": 8000.0,
-      "armor_durability": 15.0,
-      "enchantability": 5.0,
-      "armor": 34,
+      "armor_durability": 160.0,
+      "harvest_level": 5.0,
+      "harvest_speed": 10.0,
+      "enchantability": 30.0,
+      "armor": 34.0,
       "armor_toughness": 24.0,
       "magic_armor": 15.0,
       "ranged_damage": 0.0,
       "ranged_speed": 0.0,
-      "melee_damage": 8.0,
+      "melee_damage": 21.0,
       "rarity": 100.0,
       "silentgems:chargeability": 1.0
     }

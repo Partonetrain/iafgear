@@ -1,0 +1,20 @@
+{
+  "fletching/all": [
+    {
+      "texture": "silentgear:fletching_generic",
+      "color": "674F3E"
+    }
+  ],
+  "fletching/part": [
+    {
+      "texture": "silentgear:fletching",
+      "color": "674F3E"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:cloth",
+      "color": "674F3E"
+    }
+  ]
+}

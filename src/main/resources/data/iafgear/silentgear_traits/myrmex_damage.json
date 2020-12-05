@@ -1,0 +1,10 @@
+{
+  "type": "iafgear:myrmex_damage_trait",
+  "max_level": 1,
+  "name": {
+    "translate": "trait.iafgear.myrmex_damage"
+  },
+  "description": {
+    "translate": "trait.iafgear.myrmex_damage.desc"
+  }
+}
