@@ -47,7 +47,7 @@
   "traits": {
     "main": [
       {
-        "name": "iafgear:dragonprotection",
+        "name": "iafgear:dragondefense",
         "level": 1,
         "conditions": [
           {

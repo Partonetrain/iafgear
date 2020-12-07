@@ -1,5 +1,6 @@
 package info.partonetrain.iafgear;
 
+import info.partonetrain.iafgear.event.ServerEvents;
 import info.partonetrain.iafgear.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -33,6 +34,7 @@ public class IAFGear {
 
 
         PROXY = DistExecutor.runForDist(() -> () -> new SideProxy.Client(), () -> () -> new SideProxy.Server());
+        MinecraftForge.EVENT_BUS.register(new ServerEvents());
 
     }
 
@@ -40,6 +42,7 @@ public class IAFGear {
         // some preinit code
         LOGGER.info("DragonGear loading");
     }
+
 
     public static ResourceLocation getId(String path) {
         return new ResourceLocation(MOD_ID, path);

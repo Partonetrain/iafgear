@@ -1,10 +1,11 @@
 {
-  "type": "silentgear:simple_trait",
+  "type": "iafgear:defense_trait",
   "max_level": 1,
   "name": {
     "translate": "trait.iafgear.dragonprotection"
   },
   "description": {
     "translate": "trait.iafgear.dragonprotection.desc"
-  }
+  },
+  "protection_type": "dragon"
 }

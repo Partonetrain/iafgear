@@ -1,6 +1,7 @@
 package info.partonetrain.iafgear.init;
 
 
+import info.partonetrain.iafgear.trait.DefenseTrait;
 import info.partonetrain.iafgear.trait.DragonDamageTrait;
 import info.partonetrain.iafgear.trait.MyrmexDamageTrait;
 import info.partonetrain.iafgear.trait.PhantasmalTrait;
@@ -11,6 +12,7 @@ public class IAFGearTraits {
         TraitSerializers.register(DragonDamageTrait.SERIALIZER);
         TraitSerializers.register(PhantasmalTrait.SERIALIZER);
         TraitSerializers.register(MyrmexDamageTrait.SERIALIZER);
+        TraitSerializers.register(DefenseTrait.SERIALIZER);
 
     }
 }
