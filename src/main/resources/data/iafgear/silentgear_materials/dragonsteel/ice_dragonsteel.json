@@ -11,7 +11,7 @@
   "traits": {
     "main": [
       {
-        "name": "iafgear:dragondefense",
+        "name": "iafgear:dragon_defense",
         "level": 1,
         "conditions": [
           {

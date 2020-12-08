@@ -1,0 +1,11 @@
+{
+  "parent": "iafgear:troll_leather",
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:troll_leather_forest"
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.troll_leather.forest"
+  }
+}

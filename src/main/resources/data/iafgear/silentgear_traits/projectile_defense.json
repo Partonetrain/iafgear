@@ -2,10 +2,10 @@
   "type": "iafgear:defense_trait",
   "max_level": 1,
   "name": {
-    "translate": "trait.iafgear.projectileprotection"
+    "translate": "trait.iafgear.projectile_defense"
   },
   "description": {
-    "translate": "trait.iafgear.projectileprotection.desc"
+    "translate": "trait.iafgear.projectile_defense.desc"
   },
   "protection_type": "projectile"
 }

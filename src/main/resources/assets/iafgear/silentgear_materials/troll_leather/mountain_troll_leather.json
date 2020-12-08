@@ -1,0 +1,20 @@
+{
+  "main/all": [
+    {
+      "texture": "silentgear:main_generic_hc",
+      "color": "#36444A"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:cloth",
+      "color": "#36444A"
+    }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:troll_leather",
+      "color": "#36444A"
+    }
+  ]
+}

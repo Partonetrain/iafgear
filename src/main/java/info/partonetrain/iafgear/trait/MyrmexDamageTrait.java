@@ -30,7 +30,9 @@ public class MyrmexDamageTrait extends SimpleTrait {
             target.attackEntityFrom(DamageSource.GENERIC, baseValue) ;
         }
 
-        //TODO: apply knockback properly here
+        //since doing damage here prevents normal knockback for some reason.
+        //temporary workaround constant knockback
+        target.applyKnockback(0.4F, context.getPlayer().getPosX() - target.getPosX(), context.getPlayer().getPosZ() - target.getPosZ());
         return baseValue;
     }
 

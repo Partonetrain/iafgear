@@ -1,0 +1,17 @@
+{
+  "main/all": [
+    {
+      "texture": "silentgear:main_generic_hc"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:cloth"
+    }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:troll_leather"
+    }
+  ]
+}

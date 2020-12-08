@@ -1,0 +1,54 @@
+{
+  "availability": {
+    "tier": 2,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "iafgear:troll_leather"
+      },
+      "exclusions": [
+        "iceandfire:troll_leather_frost",
+        "iceandfire:troll_leather_forest",
+        "iceandfire:troll_leather_mountain"
+      ]
+    }
+  },
+  "name": {
+    "translate": "material.iafgear.troll_leather"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 20.0,
+      "enchantability": 15.0,
+      "armor": 27.0,
+      "armor_toughness": 1.0,
+      "magic_armor": 10.0,
+      "rarity": 35.0,
+      "silentgems:chargeability": 1.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "iafgear:projectile_defense",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      }
+    ]
+  }
+}

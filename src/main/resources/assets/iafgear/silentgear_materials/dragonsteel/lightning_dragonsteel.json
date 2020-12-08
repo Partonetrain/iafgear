@@ -13,5 +13,11 @@
       "texture": "silentgear:metal",
       "color": "#9077AD"
     }
+  ],
+  "main/armor": [
+    {
+      "texture": "iafgear:dragonsteel",
+      "color": "#9077AD"
+    }
   ]
 }

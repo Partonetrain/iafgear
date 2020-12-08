@@ -19,8 +19,8 @@ public class ServerEvents {
         ItemStack c = event.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.CHEST);
         ItemStack l = event.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.LEGS);
         ItemStack f = event.getEntityLiving().getItemStackFromSlot(EquipmentSlotType.FEET);
-        ResourceLocation DRAGON_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:dragondefense");
-        ResourceLocation PROJECTILE_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:projectiledefense");
+        ResourceLocation DRAGON_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:dragon_defense");
+        ResourceLocation PROJECTILE_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:projectile_defense");
 
         if (event.getSource().isProjectile()) {
             float multi = 1;
@@ -36,7 +36,6 @@ public class ServerEvents {
             if (TraitHelper.getTraitLevel(f, PROJECTILE_PROTECTION_TRAIT_RL) != 0) {
                 multi -= 0.1;
             }
-            IAFGear.LOGGER.info("Projectile trait!");
             event.setAmount(event.getAmount() * multi);
         }
         if (event.getSource() == IafDamageRegistry.DRAGON_FIRE || event.getSource() == IafDamageRegistry.DRAGON_ICE) {
@@ -53,7 +52,6 @@ public class ServerEvents {
             if (TraitHelper.getTraitLevel(f, DRAGON_PROTECTION_TRAIT_RL) != 0) {
                 multi -= 0.1;
             }
-            IAFGear.LOGGER.info("Dragon trait!");
             event.setAmount(event.getAmount() * multi);
         }
     }
