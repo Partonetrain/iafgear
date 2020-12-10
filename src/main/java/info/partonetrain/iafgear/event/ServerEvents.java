@@ -17,9 +17,9 @@ import net.silentchaos512.gear.util.TraitHelper;
 @Mod.EventBusSubscriber(modid = IAFGear.MOD_ID)
 public class ServerEvents {
 
-    private static ResourceLocation DRAGON_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:dragon_defense");
-    private static ResourceLocation PROJECTILE_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:projectile_defense");
-    private static ResourceLocation TIDE_GUARDIAN_TRAIT_RL = new ResourceLocation("iafgear:tide_guardian");
+    private static final ResourceLocation DRAGON_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:dragon_defense");
+    private static final ResourceLocation PROJECTILE_PROTECTION_TRAIT_RL = new ResourceLocation("iafgear:projectile_defense");
+    private static final ResourceLocation TIDE_GUARDIAN_TRAIT_RL = new ResourceLocation("iafgear:tide_guardian");
 
     @SubscribeEvent
     public static void onEntityDamage(LivingHurtEvent event) {
