@@ -42,7 +42,21 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:malleable",
+        "name": "iafgear:diver",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "iafgear:tide_guardian",
         "level": 1,
         "conditions": [
           {

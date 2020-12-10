@@ -1,0 +1,10 @@
+{
+  "type": "iafgear:tide_guardian_trait",
+  "max_level": 1,
+  "name": {
+    "translate": "trait.iafgear.tide_guardian"
+  },
+  "description": {
+    "translate": "trait.iafgear.tide_guardian.desc"
+  }
+}

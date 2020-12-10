@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:potion_effect_trait",
+  "max_level": 1,
+  "name": {
+    "translate": "trait.iafgear.diver"
+  },
+  "description": {
+    "translate": "trait.iafgear.diver.desc"
+  },
+  "potion_effects": {
+    "armor": [
+      {
+        "type": "trait_level",
+        "effect": "minecraft:water_breathing",
+        "level": [
+          1
+        ]
+      }
+    ]
+  }
+}

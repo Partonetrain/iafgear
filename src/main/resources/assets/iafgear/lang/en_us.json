@@ -15,6 +15,10 @@
   "trait.iafgear.stinger.desc": "Poisons the target for 10 seconds on hit",
   "trait.iafgear.myrmex_damage": "Myrmexian",
   "trait.iafgear.myrmex_damage.desc": "+4 damage against non-arthropods and deathworms",
+  "trait.iafgear.diver": "Diver",
+  "trait.iafgear.diver.desc": "Grants Water Breathing",
+  "trait.iafgear.tide_guardian": "Tide Guardian",
+  "trait.iafgear.tide_guardian.desc": "Grants Strength when wet",
 
   "material.iafgear.dragonbone": "Dragon Bone",
   "material.iafgear.witherbone": "Witherbone",

@@ -20,8 +20,7 @@ import net.silentchaos512.gear.gear.trait.SimpleTrait;
 public class DragonDamageTrait extends SimpleTrait {
 
     private String damageType;
-    //TODO: make this serialize from the json
-    private int effectScale = 15;
+    private int effectScale = 15;    //this could be maybe be serialized from json
     private static final int EFFECT_MULTIPLIER = 20;
     private static final float BONUS_DAMAGE = 13.5F;
     private static final float BONUS_DAMAGE_LIGHTNING = 9.5F;

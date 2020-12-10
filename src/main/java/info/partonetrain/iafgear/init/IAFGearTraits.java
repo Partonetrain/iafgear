@@ -1,10 +1,7 @@
 package info.partonetrain.iafgear.init;
 
 
-import info.partonetrain.iafgear.trait.DefenseTrait;
-import info.partonetrain.iafgear.trait.DragonDamageTrait;
-import info.partonetrain.iafgear.trait.MyrmexDamageTrait;
-import info.partonetrain.iafgear.trait.PhantasmalTrait;
+import info.partonetrain.iafgear.trait.*;
 import net.silentchaos512.gear.gear.trait.TraitSerializers;
 
 public class IAFGearTraits {
@@ -13,6 +10,6 @@ public class IAFGearTraits {
         TraitSerializers.register(PhantasmalTrait.SERIALIZER);
         TraitSerializers.register(MyrmexDamageTrait.SERIALIZER);
         TraitSerializers.register(DefenseTrait.SERIALIZER);
-
+        TraitSerializers.register(TideGuardianTrait.SERIALIZER);
     }
 }
