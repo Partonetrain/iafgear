@@ -10,6 +10,8 @@ import net.silentchaos512.gear.api.traits.ITraitSerializer;
 import net.silentchaos512.gear.api.traits.TraitActionContext;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
 
+import java.util.Collection;
+
 public class MyrmexDamageTrait extends SimpleTrait {
 
     private static final float BONUS_DAMAGE = 4F;
@@ -39,5 +41,7 @@ public class MyrmexDamageTrait extends SimpleTrait {
     public MyrmexDamageTrait(ResourceLocation id) {
         super(id, SERIALIZER);
     }
+
+    //no GetExtraWikiLines necessary
 
 }

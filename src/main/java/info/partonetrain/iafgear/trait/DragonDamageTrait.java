@@ -17,6 +17,8 @@ import net.silentchaos512.gear.api.traits.ITraitSerializer;
 import net.silentchaos512.gear.api.traits.TraitActionContext;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
 
+import java.util.Collection;
+
 public class DragonDamageTrait extends SimpleTrait {
 
     private String damageType;
@@ -67,6 +69,7 @@ public class DragonDamageTrait extends SimpleTrait {
             default:
                 break;
         }
+        //constant knockback since doing damage here prevents knockback for some reason
         doKnockback(target, context.getPlayer());
 
         return baseValue;
@@ -102,6 +105,26 @@ public class DragonDamageTrait extends SimpleTrait {
 
     public DragonDamageTrait(ResourceLocation id) {
         super(id, SERIALIZER);
+    }
+
+    @Override
+    public Collection<String> getExtraWikiLines() {
+        Collection<String> ret = super.getExtraWikiLines();
+        switch (this.damageType) {
+            case "fire":
+                ret.add("Sets fire to target for " + effectScale + " seconds and deals " + BONUS_DAMAGE + " damage to Ice Dragons");
+                break;
+            case "ice":
+                ret.add("Freezes target for " + (effectScale * EFFECT_MULTIPLIER) + " seconds and deals " + BONUS_DAMAGE + " damage to Fire Dragons");
+                break;
+            case "lightning":
+                ret.add("Strikes target with lightning and deals " + BONUS_DAMAGE_LIGHTNING + " damage to Fire or Ice Dragons");
+                break;
+            default:
+                ret.add("Invalid DragonDamageTrait");
+                break;
+        }
+        return ret;
     }
 
 }

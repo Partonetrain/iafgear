@@ -7,6 +7,8 @@ import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.silentchaos512.gear.api.traits.ITraitSerializer;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
 
+import java.util.Collection;
+
 public class DefenseTrait extends SimpleTrait {
 
     private String protectionType; //unused
@@ -41,6 +43,13 @@ public class DefenseTrait extends SimpleTrait {
      */
     public DefenseTrait(ResourceLocation id) {
         super(id, SERIALIZER);
+    }
+
+    @Override
+    public Collection<String> getExtraWikiLines() {
+        Collection<String> ret = super.getExtraWikiLines();
+        ret.add("Prevents % amount of damage for the given damage type. Head: 10%, Chest: 30%, Legs: 20%, Feet: 10%");
+        return ret;
     }
 
 }

@@ -10,6 +10,8 @@ import net.minecraft.util.ResourceLocation;
 import net.silentchaos512.gear.api.traits.ITraitSerializer;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
 
+import java.util.Collection;
+
 public class PhantasmalTrait extends SimpleTrait {
 
 
@@ -26,6 +28,13 @@ public class PhantasmalTrait extends SimpleTrait {
 
     public PhantasmalTrait(ResourceLocation id) {
         super(id, SERIALIZER);
+    }
+
+    @Override
+    public Collection<String> getExtraWikiLines() {
+        Collection<String> ret = super.getExtraWikiLines();
+        ret.add("The projectile is identical to that of a default, unenchanted Phantasmal Sword.");
+        return ret;
     }
 
 }

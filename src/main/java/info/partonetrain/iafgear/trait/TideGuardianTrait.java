@@ -7,6 +7,8 @@ import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.silentchaos512.gear.api.traits.ITraitSerializer;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
 
+import java.util.Collection;
+
 public class TideGuardianTrait extends SimpleTrait {
 
     private static final ResourceLocation SERIALIZER_ID = IAFGear.getId("tide_guardian_trait");
@@ -20,6 +22,13 @@ public class TideGuardianTrait extends SimpleTrait {
 
     public TideGuardianTrait(ResourceLocation id) {
         super(id, SERIALIZER);
+    }
+
+    @Override
+    public Collection<String> getExtraWikiLines() {
+        Collection<String> ret = super.getExtraWikiLines();
+        ret.add("When wet, gives 1 level of Strength for every gear with this trait equipped.");
+        return ret;
     }
 
 }
