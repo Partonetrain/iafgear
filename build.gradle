@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.3-1.0.0'
+version = '1.16.3-1.0.1'
 group = 'info.partonetrain.iafgear' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'iafgear'
 
@@ -137,7 +137,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+")
     //runtimeOnly fg.deobf("curse.maven:jei:3078092")
 
-    compile("net.silentchaos512:silent-gear-1.16.3:2.4.2"){
+    compile("net.silentchaos512:silent-gear-1.16.3:2.4.9"){
         exclude module: "silents-mechanisms-1.16.3"
     }
     compile("net.silentchaos512:silent-lib-1.16.3:4.+")

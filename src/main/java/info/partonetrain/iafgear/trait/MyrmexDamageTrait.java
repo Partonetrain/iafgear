@@ -25,17 +25,17 @@ public class MyrmexDamageTrait extends SimpleTrait {
 
     @Override
     public float onAttackEntity(TraitActionContext context, LivingEntity target, float baseValue) {
-        float newDamage = baseValue + BONUS_DAMAGE;
-        if ((target.getCreatureAttribute() != CreatureAttribute.ARTHROPOD) || target instanceof EntityDeathWorm) {
-            target.attackEntityFrom(DamageSource.GENERIC, newDamage);
-        } else {
-            target.attackEntityFrom(DamageSource.GENERIC, baseValue) ;
-        }
 
-        //since doing damage here prevents normal knockback for some reason.
-        //temporary workaround constant knockback
-        target.applyKnockback(0.4F, context.getPlayer().getPosX() - target.getPosX(), context.getPlayer().getPosZ() - target.getPosZ());
-        return baseValue;
+
+        if ((target.getCreatureAttribute() != CreatureAttribute.ARTHROPOD) || target instanceof EntityDeathWorm) {
+            //target.attackEntityFrom(DamageSource.GENERIC, baseValue + BONUS_DAMAGE);
+            return baseValue + BONUS_DAMAGE;
+        } else {
+            //target.attackEntityFrom(DamageSource.GENERIC, baseValue);
+            return baseValue;
+        }
+        //target.applyKnockback(0.4F, context.getPlayer().getPosX() - target.getPosX(), context.getPlayer().getPosZ() - target.getPosZ());
+
     }
 
     public MyrmexDamageTrait(ResourceLocation id) {

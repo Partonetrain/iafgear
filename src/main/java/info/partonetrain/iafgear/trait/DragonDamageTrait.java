@@ -46,33 +46,35 @@ public class DragonDamageTrait extends SimpleTrait {
 
     @Override
     public float onAttackEntity(TraitActionContext context, LivingEntity target, float baseValue) {
-        //there's probably a better way to do this lol
+        float damageToDeal = baseValue;
         switch (damageType) {
             case "fire":
                 if (target instanceof EntityIceDragon) {
-                    target.attackEntityFrom(DamageSource.IN_FIRE, BONUS_DAMAGE);
+                    //target.attackEntityFrom(DamageSource.IN_FIRE, BONUS_DAMAGE);
+                    damageToDeal = baseValue + BONUS_DAMAGE;
                 }
                 burn(target);
                 break;
             case "ice":
                 if (target instanceof EntityFireDragon) {
-                    target.attackEntityFrom(DamageSource.DROWN, BONUS_DAMAGE);
+                    //target.attackEntityFrom(DamageSource.DROWN, BONUS_DAMAGE);
+                    damageToDeal = baseValue + BONUS_DAMAGE;
                 }
                 freeze(target);
                 break;
             case "lightning":
                 if (target instanceof EntityFireDragon || target instanceof EntityIceDragon) {
-                    target.attackEntityFrom(DamageSource.LIGHTNING_BOLT, BONUS_DAMAGE_LIGHTNING);
+                    //target.attackEntityFrom(DamageSource.LIGHTNING_BOLT, BONUS_DAMAGE_LIGHTNING);
+                    damageToDeal = baseValue + BONUS_DAMAGE_LIGHTNING;;
                 }
                 lightning(target, context.getPlayer());
                 break;
             default:
                 break;
         }
-        //constant knockback since doing damage here prevents knockback for some reason
-        doKnockback(target, context.getPlayer());
+        //doKnockback(target, context.getPlayer());
 
-        return baseValue;
+        return damageToDeal;
     }
 
     public void burn(LivingEntity target) {
@@ -99,9 +101,11 @@ public class DragonDamageTrait extends SimpleTrait {
         }
     }
 
+    /*
     public void doKnockback(LivingEntity target, LivingEntity attacker){
         target.applyKnockback( 1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
     }
+     */
 
     public DragonDamageTrait(ResourceLocation id) {
         super(id, SERIALIZER);
