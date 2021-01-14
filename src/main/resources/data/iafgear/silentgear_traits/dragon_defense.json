@@ -2,10 +2,10 @@
   "type": "iafgear:defense_trait",
   "max_level": 1,
   "name": {
-    "translate": "trait.iafgear.dragonprotection"
+    "translate": "trait.iafgear.dragon_defense"
   },
   "description": {
-    "translate": "trait.iafgear.dragonprotection.desc"
+    "translate": "trait.iafgear.dragon_defense.desc"
   },
   "protection_type": "dragon"
 }
