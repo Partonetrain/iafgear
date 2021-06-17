@@ -1,6 +1,7 @@
 1.16.5-1.0.5
 ============
-* Fix crash
+* Fix crash with recent Citadel versions (#7)
+* Update to 1.16.5
   
 1.16.3-1.0.2
 ============
