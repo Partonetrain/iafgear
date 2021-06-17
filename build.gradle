@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.3-1.0.2'
+version = '1.16.5-1.0.3'
 group = 'info.partonetrain.iafgear' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'iafgear'
 
@@ -33,6 +33,7 @@ repositories {
     maven {
         url "https://www.cursemaven.com"
     }
+    /*
     maven {
         url "https://dl.bintray.com/silentchaos512/silent-gear/"
     }
@@ -45,6 +46,7 @@ repositories {
     maven {
         url "https://dl.bintray.com/silentchaos512/silents-mechanisms"
     }
+     */
     //backup jei maven
     maven {
         url "https://modmaven.k-4u.nl/mezz/jei/jei-1.16.3/"
@@ -63,7 +65,7 @@ minecraft {
     // Use non-default mappings at your own risk. they may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     //mappings channel: 'snapshot', version: '20200514-1.16'
-    mappings channel: 'snapshot', version: "20201028-1.16.3"
+    mappings channel: 'snapshot', version: "20210309-1.16.5"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -131,22 +133,35 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.3-34.1.42'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.32'
 
     compileOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.3:7.6+")
     //runtimeOnly fg.deobf("curse.maven:jei:3078092")
 
+    /*
     compile("net.silentchaos512:silent-gear-1.16.3:2.4.9"){
         exclude module: "silents-mechanisms-1.16.3"
     }
     compile("net.silentchaos512:silent-lib-1.16.3:4.+")
     compile("net.silentchaos512:silent-utils:1.0.7")
+     */
+    compile("curse.maven:silent-gear-297039:3335628"){
+        exclude module: 'forge'
+        exclude module: 'jei-1.16.3'
+        exclude module: 'silent-lib-1.16.3'
+        exclude module: 'curios-forge'
+    }
+    compile("curse.maven:silent-lib-242998:3235738"){
+        exclude module: "forge"
+    }
+
 
     //compile 'curse.maven:citadel:1.4.1:deobf'
     //compile 'citadel:citadel:1.4.1:deobf'
-    implementation fg.deobf("curse.maven:citadel:3116144")
-    implementation fg.deobf("curse.maven:iceandfire:3117110")
+    //implementation fg.deobf("curse.maven:citadel-331936:3346836")
+    compile "curse.maven:citadel-331936:3346837" //citadel 1.7.1 fileid: 3346837
+    compile "curse.maven:iceandfire-264231:3347222"
 
     implementation 'org.jetbrains:annotations:15.0'
 

@@ -1,3 +1,7 @@
+1.16.5-1.0.5
+============
+* Fix crash
+  
 1.16.3-1.0.2
 ============
 * Fix display name and description of Dragon Defense trait
