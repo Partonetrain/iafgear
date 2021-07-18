@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.5-1.0.3'
+version = '1.16.5-1.0.4'
 group = 'info.partonetrain.iafgear' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'iafgear'
 
@@ -146,7 +146,7 @@ dependencies {
     compile("net.silentchaos512:silent-lib-1.16.3:4.+")
     compile("net.silentchaos512:silent-utils:1.0.7")
      */
-    compile("curse.maven:silent-gear-297039:3335628"){
+    compile("curse.maven:silent-gear-297039:3386805"){
         exclude module: 'forge'
         exclude module: 'jei-1.16.3'
         exclude module: 'silent-lib-1.16.3'

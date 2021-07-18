@@ -1,6 +1,9 @@
 {
   "availability": {
     "tier": 5,
+    "categories": [
+      "metal"
+    ],
     "visible": true,
     "gear_blacklist": [],
     "can_salvage": true
@@ -10,7 +13,7 @@
   },
   "crafting_items": {
     "main": {
-      "type": "silentgear:exclusion",
+      "type": "silentlib:exclusion",
       "value": {
         "tag": "iafgear:dragonsteel"
       },

@@ -1,4 +1,11 @@
-1.16.5-1.0.5
+1.16.5-1.0.4
+============
+* Fix some materials erroring with latest SilentGear (#8)
+* Now requires SilentGear 2.6.30
+* Dragonsteel Armor will no longer have offensive traits
+* Added Material Categories to relevant materials
+
+1.16.5-1.0.3
 ============
 * Fix crash with recent Citadel versions (#7)
 * Update to 1.16.5

@@ -1,13 +1,16 @@
 {
   "availability": {
     "tier": 3,
+    "categories": [
+      "organic"
+    ],
     "visible": true,
     "gear_blacklist": [],
     "can_salvage": true
   },
   "crafting_items": {
     "main": {
-      "type": "silentgear:exclusion",
+      "type": "silentlib:exclusion",
       "value": {
         "tag": "iafgear:deathworm_chitin"
       },
